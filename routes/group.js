@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router()
 var testdb = require('../utils/test.js');//for database
+var dip = require('./contract.js');
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   //res.send('respond with a resource');
@@ -38,8 +39,9 @@ router.post('/update',function(req,res,next){
 	// testdb.api_db_query1(JSON.stringify({uuid:}))
 	res.send("yes");
 });
-router.post('/re',function(req,res,next){
-	
+router.get('/re',function(req,res,next){
+	dip.test();
+	res.send("yes");
 });
 
 module.exports = router;
