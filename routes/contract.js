@@ -1,6 +1,6 @@
 let Web3 = require('web3')
 var axios = require("axios");
-const web3 = new Web3('https://mainnet.infura.io/v3/f90152ad272849c9a6696b2bf7b31f94') //换成https://infura.io地址  主网选择  
+const web3 = new Web3('https://ropsten.infura.io/v3/949cc06859e6467d81b8c28b3b6f54a2') //换成https://infura.io地址  主网选择  
 const EthereumTx = require('ethereumjs-tx').Transaction
 
 //智能合约地址
@@ -10,9 +10,9 @@ const DidRegistryContract = require('./obi.json') //合约的abi;
 
 
 //私钥转换为Buffer
-const privateKey =  Buffer.from('531b9bd243e746261723e4459cad68511f67f0a94e68489e7e302b53716c7612',"hex")
+const privateKey =  Buffer.from('',"hex")
 //私钥转换为账号
-const account = web3.eth.accounts.privateKeyToAccount("531b9bd243e746261723e4459cad68511f67f0a94e68489e7e302b53716c7612");
+const account = web3.eth.accounts.privateKeyToAccount("");
 //私钥对应的账号地地址
 const address = account.address
 console.log("address: ",address)

@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var axios = require("axios");
 var sha256 = require("js-sha256");
+var axios = require("axios");
 var pg = require('pg');
 var testdb = require('../utils/test.js');//for database
 /* GET home page. */
@@ -36,13 +37,13 @@ router.get('/', function(req, res, next) {
 	
 	data = {
 		  "groupId":1,
-		  "uuidStateless":"12323823313",
+		  "uuidStateless":"123238233113",
 		  "signType":2,
-		  "contractAddress":"0x1f468147f69f26ac7d57de42b739baa338367afe",
-		  "funcName":"creat",
-		  "contractAbi":[{"constant":true,"inputs":[],"name":"getinformation","outputs":[{"name":"","type":"bytes32[]"},{"name":"","type":"bytes32[]"},{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_time","type":"bytes32"},{"name":"_info","type":"bytes32"}],"name":"creat","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"}],
-		  "funcParam":["yes","me"],
-		  "signUserId":"20a831197a044c2e83bf0d6e2593c75b"
+		  "contractAddress":"0xdfa5569ada457d3a2aa83822b9a20d53d971f6e4",
+		  "funcName":"addEvidence",
+		  "contractAbi":'[{"constant":false,"inputs":[],"name":"callTime","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"time","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"id","type":"address"},{"name":"time","type":"string"}],"name":"selectByIdAndTime","outputs":[{"name":"ok","type":"int256"},{"name":"location","type":"string"},{"name":"other","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"id","type":"address"},{"name":"time","type":"string"},{"name":"location","type":"string"},{"name":"other","type":"string"}],"name":"addEvidence","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"id","type":"address"},{"name":"time","type":"string"}],"name":"removeByIdAndTime","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"create","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"id","type":"address"},{"name":"time","type":"string"},{"name":"location","type":"string"},{"name":"other","type":"string"}],"name":"updateEvidence","outputs":[{"name":"","type":"int256"}],"payable":false,"stateMutability":"nonpayable","type":"function"}]',
+		  "funcParam":["0x1a1eacd00bc579f7b714fb000d6056","me","22","aaaaa"],
+		  "signUserId":"71c98a8087e84aeb990ccda02169f964"
 };
 
 	try{

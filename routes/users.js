@@ -35,6 +35,9 @@ router.post('/login',function(req,res,next){
 });
 router.post('/re',function(req,res,next){
 	console.log(req.body);
+	let signUserId = randomString(10);
+	let appId = randomString(11);
+	axios.get('http://121.40.254.238:5004/WeBASE-Sign/user/newUser?signUserId='+signUserId+'&appId='+appId+'&encryptType=0').then((result)=>{
 	let data = {
 		name:req.body.username,
 		password:req.body.password,
@@ -45,13 +48,15 @@ router.post('/re',function(req,res,next){
 		score:0,
 		range:0,
 		scorerange:0,
-		address:'0x0000000000000'
+		address:result.data.address
 	}
 	testdb.api_db(JSON.stringify(data),'wangxin_for_helpchain_user').then((ress)=>{
 		console.log(ress);
 		//res.send("yess");
 		res.send('0');
 		
+	})
+	
 	})
 });
 
