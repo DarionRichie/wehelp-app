@@ -219,7 +219,7 @@
 					//console.log(e);
 					uni.request({
 						method:'POST',
-						url:'http://192.168.1.9:3000/1',
+						url:'http://159.138.27.178:3000/1',
 						data:{type:data_forblue,location_x:location_x_data,location_y:location_y_data,uuid_self:myself.uuid},
 						success(sess) {
 							console.log(sess);

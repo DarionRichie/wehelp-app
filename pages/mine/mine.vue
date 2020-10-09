@@ -6,7 +6,7 @@
             <image :src="currentUser.avatar"></image>
             <view class="topTwo">
 				<!-- <view class="name">{{currentUser.name}}</view> -->
-				<view class="name" style="font-size: 35rpx;font-weight: bolder;">{{currentUser.name}}</view>
+				<view class="name" style="font-size: 15rpx;font-weight: bolder;">{{currentUser.address}}</view>
 				<view class="name">{{currentUser.name}}</view>
 			</view>
 			<view><div style="width: auto;height: auto;background-color: #ffe789;border-radius: 45rpx;font-size: 25rpx;"><text style="margin: 5rpx;">见义勇为</text></div></view>
@@ -83,8 +83,8 @@
                 currentUser : null,
 				myselfinfo:{sfz:430321200101127019,name:"dtwang"},
 				dataforBar:[{pic:"../../static/find.png",content:"历史善行查询",id:1},{pic:"../../static/tochange.png",content:"兑换公益积分",id:2},{pic:"../../static/logining.png",content:"重新实名认证",id:3}],
-				dataforReward:[{pic:"../../static/zan.png",content:"获赞",content2:"0"},{pic:"../../static/reward.png",content:"荣誉",content2:0}],
-				dataforBiDU:[{pic:"../../static/find.png",content:"急救医疗手册",sec_content:'',id:1},{pic:"../../static/tochange.png",content:"心肺复苏黄金3分钟",sec_content:'',id:2},{pic:"../../static/logining.png",content:"地区积分转换指导",id:3}],
+				dataforReward:[{pic:"../../static/zan.png",content:"获赞",content2:"0"},{pic:"../../static/time.png",content:"义工时",content2:0}],
+				dataforBiDU:[{pic:"../../static/toRead.png",content:"老人摔倒扶还是不扶的信任问题",sec_content:'',id:1},{pic:"../../static/toRead.png",content:"最快找到心肺复苏救援者的时间问题",sec_content:'',id:2}],
             }
         },
         onShow () {

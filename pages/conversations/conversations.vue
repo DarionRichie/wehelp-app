@@ -39,9 +39,7 @@
 		<image  src="../../static/saving.png"style="width: 156rpx;height: 156rpx;"></image>
 		<text style="font-size: 25rpx;color: #000000;">继续救援</text>
 	</view>
-	<view style="position: absolute;bottom: 100rpx;left: 10rpx;display: flex;flex-direction: column;"v-if="isSaving" @click="for_c_saving">
-		<button>进入评价</button>
-	</view>
+	
 	</view>
 </template>
 

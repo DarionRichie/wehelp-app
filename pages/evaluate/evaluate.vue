@@ -31,7 +31,7 @@
 			<vastwu-saveimg :imgListprop="photo_list" :num='9' :isBase64='true' :isSave='true' :size='180' @chooseImage='imglist_msg'  @delImg='del_imglist_msg'></vastwu-saveimg>
 		</view>
 		
-		<button>提交评价</button>
+		<button style="background-color: #007AFF;color: #FFFFFF;">提交评价</button>
 	</view>
 </template>
 

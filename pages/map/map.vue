@@ -177,8 +177,8 @@
                 //终点
                 let end = {
                     Name: '北京站',
-                    Lat: this.endL,
-                    Lng: this.endLo,
+                    Lat: 40.013305,
+                    Lng: 118.685713,
                     ID: ""
                 };
                 /* gaodeMap.gotoShowRoute(null,wayList,end,(res)=>{
@@ -216,7 +216,11 @@
 				// uni.setStorageSync('Lo',115.552);
 				that.endL = uni.getStorageSync('L');
 				that.endLo = uni.getStorageSync('Lo')
-				let end={Name:'目标位置',Lat:that.endL,Lng:that.endLo,ID:""};
+				let end={Name:'目标位置',Lat:that.endLo,Lng:that.endL,ID:""};
+				console.log(that.myL);
+				console.log(that.myLo);
+				console.log(that.endL);
+				console.log(that.endLo);
 				/* gaodeMap.gotoShowRoute(null,wayList,end,(res)=>{
 				console.log(res)
 				}); */

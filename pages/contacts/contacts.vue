@@ -40,8 +40,10 @@
 		},
 		onShow() {
 			
-			IMService.getThisUser();
-			IMService.getThisGroup();
+			setInterval(function(){
+				IMService.getThisUser();
+				IMService.getThisGroup();
+			},1000);
 			let imService = getApp().globalData.imService;
 			if(!imService || !imService.currentUser){
 				uni.navigateTo({
