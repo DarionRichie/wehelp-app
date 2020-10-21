@@ -1,0 +1,187 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "求救"
+		}
+	}    ,{
+            "path" : "pages/map/map",
+            "style" : {
+				"navigationBarTitleText": "地图"
+			}
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/daohang/daohang",
+            "style": {
+            "navigationBarTitleText": "引导页",
+            "titleNView": false,
+            "app-plus": {
+                "bounce": "none"
+            }
+        }
+		}
+        ,{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				//"navigationBarBackgroundColor" : "#ffffff",
+				//"navigationBarTextStyle":"black",
+				"app-plus" : {
+					"titleNView" : true
+				}	
+			}
+		},
+		{
+			"path": "pages/conversations/conversations",
+			"style": {
+				"navigationBarTitleText": "会话",
+				//"navigationBarBackgroundColor" : "#F3F4F7",
+				//"navigationBarTextStyle" : "#ffffff",
+				"app-plus" : {
+					"titleNView" : true
+				}
+			}			
+		},
+		{
+			"path": "pages/contacts/contacts",
+			"style": {
+				"navigationBarTitleText": "通讯录"
+				//"navigationBarBackgroundColor" : "#F3F4F7",
+				//"navigationBarTextStyle" : "#ffffff"
+			}			
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"				//"navigationBarBackgroundColor" : "#F3F4F7",
+				//"navigationBarTextStyle" : "#ffffff"
+			}			
+		},
+		{
+			"path": "pages/chat/privateChat/privateChat",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				//"navigationBarBackgroundColor" : "#F3F4F7",
+				"enablePullDownRefresh": true
+			}			
+		},
+		{
+			"path": "pages/chat/groupChat/groupChat",
+			"style": {
+				"navigationBarTitleText": "群",
+				//"navigationBarBackgroundColor" : "#000000",
+				"enablePullDownRefresh": true
+			}			
+		},
+		{
+			"path": "pages/chat/groupChat/member",
+			"style": {
+				"navigationBarTitleText": "群成员",
+				"navigationBarBackgroundColor" : "#F3F4F7"
+			}			
+		}
+        ,{
+            "path" : "pages/re/re",
+            "style" : {
+				"navigationBarTitleText": "注册"
+			}
+        }
+        ,{
+            "path" : "pages/mine/recard/recard",
+            "style" : {
+				
+			}
+        }
+        ,{
+            "path" : "pages/mine/charge/charge",
+            "style" : {
+				"backgroundColor":"#f4f8fb"
+			}
+        }
+        ,{
+            "path" : "pages/friends/friends",
+            "style" : {
+				"navigationBarTitleText": "动态",
+				//"navigationBarBackgroundColor" : "#000000",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/read/read",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/mine/recard/query/query",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/evaluate/evaluate",
+            "style" : {
+				"navigationBarTitleText": "评价"
+			}
+        }
+    ],
+	"permission": {
+		
+			// ...
+			"Push": {
+				"description": "消息推送"
+			},
+		
+	    "scope.userLocation": {
+	      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+	    }
+		},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#3a57cc",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#000000",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+		"fontSize":"15px",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        // "iconPath": "static/image/icon_component.png",
+	        // "selectedIconPath": "static/image/icon_component_HL.png",
+	        "text": "求救",
+			"iconPath":"static/wehelp/sos_1.png",
+			"selectedIconPath":"static/wehelp/sos_2.png"
+			
+	    }, {
+	        "pagePath": "pages/friends/friends",
+	        // "iconPath": "static/image/icon_API.png",
+	        // "selectedIconPath": "static/image/icon_API_HL.png",
+	        "text": "动态",
+			"iconPath":"static/wehelp/dongtai_1.png",
+			"selectedIconPath":"static/wehelp/dongtai_2.png"
+	    },{
+				"pagePath" : "pages/conversations/conversations",
+				"text":"会话",
+				"iconPath":"static/wehelp/group_1.png",
+				"selectedIconPath":"static/wehelp/group_2.png"
+			},
+			{
+				"pagePath" : "pages/contacts/contacts",
+				"text" : "通讯录",
+				"iconPath":"static/wehelp/tx_1.png",
+				"selectedIconPath":"static/wehelp/tx_2.png"
+			},
+			{
+				"pagePath" : "pages/mine/mine",
+				"text" : "我",
+				"iconPath":"static/wehelp/mine_1.png",
+				"selectedIconPath":"static/wehelp/mine2.png"
+			}]
+	}
+}
