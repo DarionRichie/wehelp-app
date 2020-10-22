@@ -6,7 +6,7 @@ WeHelp采用可共享的分布式账本记录善行，避免数据被伪造，�
 
 项目代码地址：
 
-<img src="https://github.com/sunyd1006/wehelp-app/blob/master/Pic/github_link.png" alt="扫码访问Github"  />
+<img src="./Pic/github_link.png" alt="扫码访问Github"  />
 
 源码1（持续迭代中）：https://github.com/DarionRichie/wehelp-app
 
