@@ -8,9 +8,17 @@ WeHelp采用可共享的分布式账本记录善行，避免数据被伪造，�
 
 <img src=".\Pic\githhub_link.png" alt="扫码访问Github"  />
 
-源码1：https://github.com/DarionRichie/wehelp-app（持续迭代中）
+源码1（持续迭代中）：https://github.com/DarionRichie/wehelp-app
 
-源码2：https://github.com/sunyd1006/wehelp-app（持续迭代中）
+源码2（持续迭代中）：https://github.com/sunyd1006/wehelp-app
+
+
+
+------
+
+**图片加载可能较慢，他在卖力卖力加载中**![img](.\Pic\simle.png)
+
+------
 
 
 
