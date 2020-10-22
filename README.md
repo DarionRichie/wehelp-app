@@ -6,7 +6,7 @@ WeHelp采用可共享的分布式账本记录善行，避免数据被伪造，�
 
 项目代码地址：
 
-<img src=".\Pic\githhub_link.png" alt="扫码访问Github" style="zoom:150%;" />
+<img src=".\Pic\githhub_link.png" alt="扫码访问Github"  />
 
 源码1：https://github.com/DarionRichie/wehelp-app（持续迭代中）
 
@@ -16,7 +16,7 @@ WeHelp采用可共享的分布式账本记录善行，避免数据被伪造，�
 
 # 目录说明
 
-<img src=".\Pic\doc_dis.png" alt="目录结构表" style="zoom:150%;" />
+<img src=".\Pic\doc_dis.png" alt="目录结构表"  />
 
 ## 系统使用流程
 
@@ -26,7 +26,7 @@ WeHelp采用可共享的分布式账本记录善行，避免数据被伪造，�
 
 # 合约设计和功能说明
 
-<img src=".\Pic\smart_dis.png" alt="合约设计表" style="zoom: 150%;" />
+<img src=".\Pic\smart_dis.png" alt="合约设计表"  />
 
 
 
@@ -40,7 +40,7 @@ WeHelp采用可共享的分布式账本记录善行，避免数据被伪造，�
 
 ### 使用说明
 
-<img src=".\Pic\weid_why_to_use.png" alt="image-20201022095742960" style="zoom:150%;" />
+<img src=".\Pic\weid_why_to_use.png" alt="WeID使用说明"  />
 
 1. 
 
