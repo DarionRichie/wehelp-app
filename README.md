@@ -6,27 +6,35 @@ WeHelp采用可共享的分布式账本记录善行，避免数据被伪造，�
 
 项目代码地址：
 
-<img src=".\Pic\githhub_link.png" alt="扫码访问Github"  />
+<img src="./Pic/github_link.png" alt="扫码访问Github"  />
 
-源码1：https://github.com/DarionRichie/wehelp-app（持续迭代中）
+源码1（持续迭代中）：https://github.com/DarionRichie/wehelp-app
 
-源码2：https://github.com/sunyd1006/wehelp-app（持续迭代中）
+源码2（持续迭代中）：https://github.com/sunyd1006/wehelp-app
+
+
+
+------
+
+**Github 图片加载较慢，WeHelp 和您一起等待 **<img src="./Pic/simle.png" alt="img"  />
+
+------
 
 
 
 # 目录说明
 
-<img src=".\Pic\doc_dis.png" alt="目录结构表"  />
+<img src="./Pic/doc_dis.png" alt="目录结构表"  />
 
 ## 系统使用流程
 
-<img src=".\Pic\process.png" alt="系统使用流程图" style="zoom:80%;" />
+<img src="./Pic/process.png" alt="系统使用流程图" style="zoom:80%;" />
 
 
 
 # 合约设计和功能说明
 
-<img src=".\Pic\smart_dis.png" alt="合约设计表"  />
+<img src="./Pic/smart_dis.png" alt="合约设计表"  />
 
 
 
@@ -34,21 +42,17 @@ WeHelp采用可共享的分布式账本记录善行，避免数据被伪造，�
 
 ### 使用思路图
 
-<img src=".\Pic\weid_process.png" alt="WeID使用思路图" style="zoom:80%;" />
+<img src="./Pic/weid_process.png" alt="WeID使用思路图" style="zoom:80%;" />
 
 
 
 ### 使用说明
 
-<img src=".\Pic\weid_why_to_use.png" alt="WeID使用说明"  />
+<img src="./Pic/weid_why_to_use.png" alt="WeID使用说明"  />
 
 ### 凭证CPT设计图
 
-<img src=".\Pic\cpt.png" alt="CPT设计图" style="zoom:80%;" />
-
-# 快速开始
-
-怎么运行，要写1下。
+<img src="./Pic/cpt.png" alt="CPT设计图" style="zoom:80%;" />
 
 
 
