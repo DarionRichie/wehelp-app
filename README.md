@@ -4,32 +4,41 @@ WeHelp采用可共享的分布式账本记录善行，避免数据被伪造，�
 
 
 
-项目代码Github：https://github.com/DarionRichie/wehelp-app（持续迭代中）
+项目代码Github：
+
+![image-20201022095407205](.\Pic\githhub_link.png)
+
+源码1：https://github.com/DarionRichie/wehelp-app（持续迭代中）
+
+源码2：https://github.com/sunyd1006/wehelp-app（持续迭代中）
 
 
 
 # 目录说明
 
-BackEnd：后端代码，是与区块链的连接和个推使用
-
-
-FrontEnd：uniapp的前端代码等
-
-SmartContract：是智能合约目录
-
-
+![image-20201022094907796](C:\Users\Sun\Desktop\wehelp-app\Pic\doc_dis.png)
 
 ## 系统使用流程
 
 <img src=".\Pic\process.png" alt="process" style="zoom:80%;" />
 
-# WeID架构
 
-## 流程图
+
+# 合约设计和功能说明
+
+![image-20201022093733935](C:\Users\Sun\Desktop\wehelp-app\Pic\smart_dis.png)
+
+
+
+## WeIdentity组件使用
+
+### 使用思路图
 
 <img src=".\Pic\weid_process.png" alt="weid_process" style="zoom:80%;" />
 
-## 使用说明
+
+
+### 使用说明
 
 - **背景**
 
@@ -49,21 +58,25 @@ SmartContract：是智能合约目录
 
 - **流程**
 
-1. 求救者、救助者、有关机构认证、奖励方等分别进行WeIdentity DID 注册及KYC认证。
+1. 1. 求救者、救助者、有关机构认证、奖励方等分别进行WeIdentity DID 注册及KYC认证。
 
-2. 参与救援的救助者向对应的医院或公安等有关机构申请善行凭证。
+   2. 参与救援的救助者向对应的医院或公安等有关机构申请善行凭证。
 
-3. 1. 发证方根据，救助者群体，求救者群体，以及自身的专业考量对救助者群体的贡献度进行衡量，发放对应积分的凭证。
+   3. 1. 发证方根据，救助者群体，求救者群体，以及自身的专业考量对救助者群体的贡献度进行衡量，发放对应积分的凭证。
 
-4. 用户可以在自己的主页查看每个善行凭证以及对应的积分。
+   4. 用户可以在自己的主页查看每个善行凭证以及对应的积分。
 
-5. 奖励方通过核验用户的凭证，核验善行凭证和积分的真实有效性，并提供对应的建立。
+   5. 奖励方通过核验用户的凭证，核验善行凭证和积分的真实有效性。
 
-6. 用户的凭证验证通过，用户通过消耗积分，获取对应的奖励。
+   6. 用户的凭证验证通过，用户通过消耗积分，获取对应的奖励。
 
-## 凭证CPT设计
+2. 
+
+### 凭证CPT设计图
 
 <img src=".\Pic\cpt.png" alt="cpt" style="zoom:80%;" />
+
+
 
 # 快速开始
 
@@ -73,9 +86,8 @@ SmartContract：是智能合约目录
 
 # 代码贡献
 
-- 我们非常欢迎您本项目创意、代码的贡献
 - 如果这个项目您觉的还不错，不妨点个赞呀
-- 也可以联系 `Keep Water` 团队参与后续迭代
+- 欢迎联系 `Keep Water` 团队参与后续迭代，我们非常需要您的建议和共享
 
 
 
