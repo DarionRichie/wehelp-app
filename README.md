@@ -42,13 +42,9 @@ WeHelp采用可共享的分布式账本记录善行，避免数据被伪造，�
 
 <img src=".\Pic\weid_why_to_use.png" alt="WeID使用说明"  />
 
-1. 
-
 ### 凭证CPT设计图
 
 <img src=".\Pic\cpt.png" alt="CPT设计图" style="zoom:80%;" />
-
-
 
 # 快速开始
 
